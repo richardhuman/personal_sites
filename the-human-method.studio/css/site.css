@@ -1,0 +1,40 @@
+:root {
+    --max-content-width: 1000px;
+    --default-padding: 20px;
+}
+body { }
+
+h1 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+h1, p, img {
+    margin-bottom: var(--default-padding);
+}
+
+img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+div.container {
+    max-width: var(--max-content-width);
+    margin: var(--default-padding) auto;
+}
+
+header {
+    text-align: center;
+}
+
+div.content {
+    max-width: var(--max-content-width);
+
+}
+
+div.content img {
+    /*max-width: 1024px*/
+}
+
+footer {
+
+}
