@@ -5,8 +5,9 @@
   "keywords": [],
   "license": "MIT",
   "author": "Richard Human",
+  "source": "index.html",
   "scripts": {
-    "build": "parcel build index.html",
+    "build": "parcel build",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +17,5 @@
     "@parcel/transformer-webmanifest": "2.8.3",
     "parcel": "2.0.0"
   },
-  "main": "index.js",
   "private": true
 }
